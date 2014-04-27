@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8807A74918D7C32E00335DCD /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8807A74818D7C32E00335DCD /* DetailsViewController.m */; };
+		880B59C218CFE1EB007286B8 /* JobModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 880B59C018CFE1EB007286B8 /* JobModel.xcdatamodeld */; };
+		880B59C518CFE2C7007286B8 /* Job.m in Sources */ = {isa = PBXBuildFile; fileRef = 880B59C418CFE2C7007286B8 /* Job.m */; };
+		883BCBD918DBB7D200D79E49 /* ApplyWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883BCBD818DBB7D200D79E49 /* ApplyWebViewController.m */; };
 		8850BB0218CE8AAD00562E05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8850BB0118CE8AAD00562E05 /* Foundation.framework */; };
 		8850BB0418CE8AAD00562E05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8850BB0318CE8AAD00562E05 /* CoreGraphics.framework */; };
 		8850BB0618CE8AAD00562E05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8850BB0518CE8AAD00562E05 /* UIKit.framework */; };
@@ -14,13 +18,27 @@
 		8850BB0E18CE8AAD00562E05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8850BB0D18CE8AAD00562E05 /* main.m */; };
 		8850BB1218CE8AAD00562E05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8850BB1118CE8AAD00562E05 /* AppDelegate.m */; };
 		8850BB1518CE8AAD00562E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8850BB1318CE8AAD00562E05 /* Main.storyboard */; };
-		8850BB1818CE8AAD00562E05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8850BB1718CE8AAD00562E05 /* ViewController.m */; };
 		8850BB1A18CE8AAD00562E05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8850BB1918CE8AAD00562E05 /* Images.xcassets */; };
 		8850BB2118CE8AAE00562E05 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8850BB2018CE8AAE00562E05 /* XCTest.framework */; };
 		8850BB2218CE8AAE00562E05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8850BB0118CE8AAD00562E05 /* Foundation.framework */; };
 		8850BB2318CE8AAE00562E05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8850BB0518CE8AAD00562E05 /* UIKit.framework */; };
 		8850BB2B18CE8AAE00562E05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8850BB2918CE8AAE00562E05 /* InfoPlist.strings */; };
 		8850BB2D18CE8AAE00562E05 /* JobSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8850BB2C18CE8AAE00562E05 /* JobSearchTests.m */; };
+		8850BB3818CE8DEF00562E05 /* HomeJobSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8850BB3718CE8DEF00562E05 /* HomeJobSearchViewController.m */; };
+		8850BB3B18CE8E0400562E05 /* FoundJobsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8850BB3A18CE8E0400562E05 /* FoundJobsTableViewController.m */; };
+		8850BB4118CE8E1F00562E05 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8850BB4018CE8E1F00562E05 /* ShareViewController.m */; };
+		8897280018D91F730055A9FC /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889727FF18D91F730055A9FC /* Social.framework */; };
+		8897280218D91F840055A9FC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8897280118D91F840055A9FC /* MessageUI.framework */; };
+		88E8BE1918DFB62600F91BF3 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 88E8BE1818DFB62600F91BF3 /* share.png */; };
+		88E8BE1B18DFB63700F91BF3 /* job.png in Resources */ = {isa = PBXBuildFile; fileRef = 88E8BE1A18DFB63700F91BF3 /* job.png */; };
+		88E8BE1D18DFB66000F91BF3 /* leather-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 88E8BE1C18DFB66000F91BF3 /* leather-background.png */; };
+		88E8BE1F18DFB6B100F91BF3 /* bgView.png in Resources */ = {isa = PBXBuildFile; fileRef = 88E8BE1E18DFB6B100F91BF3 /* bgView.png */; };
+		88E8BE2118DFB78300F91BF3 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 88E8BE2018DFB78300F91BF3 /* button.png */; };
+		88E8BE2418DFB7FD00F91BF3 /* FaceBookShareButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 88E8BE2218DFB7FD00F91BF3 /* FaceBookShareButton.png */; };
+		88E8BE2518DFB7FD00F91BF3 /* TwitterShareButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 88E8BE2318DFB7FD00F91BF3 /* TwitterShareButton.png */; };
+		88E8BE2718DFB8BA00F91BF3 /* TheTabBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 88E8BE2618DFB8BA00F91BF3 /* TheTabBar.png */; };
+		88E8BE2918DFB8DA00F91BF3 /* GreenNavBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 88E8BE2818DFB8DA00F91BF3 /* GreenNavBar.png */; };
+		88E8BE2B18DFBFAF00F91BF3 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 88E8BE2A18DFBFAF00F91BF3 /* Home.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8807A74718D7C32E00335DCD /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		8807A74818D7C32E00335DCD /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		880B59C118CFE1EB007286B8 /* JobModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JobModel.xcdatamodel; sourceTree = "<group>"; };
+		880B59C318CFE2C7007286B8 /* Job.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Job.h; sourceTree = "<group>"; };
+		880B59C418CFE2C7007286B8 /* Job.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Job.m; sourceTree = "<group>"; };
+		883BCBD718DBB7D200D79E49 /* ApplyWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplyWebViewController.h; sourceTree = "<group>"; };
+		883BCBD818DBB7D200D79E49 /* ApplyWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplyWebViewController.m; sourceTree = "<group>"; };
 		8850BAFE18CE8AAD00562E05 /* JobSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8850BB0118CE8AAD00562E05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8850BB0318CE8AAD00562E05 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +70,30 @@
 		8850BB1018CE8AAD00562E05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8850BB1118CE8AAD00562E05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8850BB1418CE8AAD00562E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8850BB1618CE8AAD00562E05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8850BB1718CE8AAD00562E05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8850BB1918CE8AAD00562E05 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8850BB1F18CE8AAE00562E05 /* JobSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8850BB2018CE8AAE00562E05 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8850BB2818CE8AAE00562E05 /* JobSearchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JobSearchTests-Info.plist"; sourceTree = "<group>"; };
 		8850BB2A18CE8AAE00562E05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8850BB2C18CE8AAE00562E05 /* JobSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobSearchTests.m; sourceTree = "<group>"; };
+		8850BB3618CE8DEF00562E05 /* HomeJobSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeJobSearchViewController.h; sourceTree = "<group>"; };
+		8850BB3718CE8DEF00562E05 /* HomeJobSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeJobSearchViewController.m; sourceTree = "<group>"; };
+		8850BB3918CE8E0400562E05 /* FoundJobsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundJobsTableViewController.h; sourceTree = "<group>"; };
+		8850BB3A18CE8E0400562E05 /* FoundJobsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundJobsTableViewController.m; sourceTree = "<group>"; };
+		8850BB3F18CE8E1F00562E05 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		8850BB4018CE8E1F00562E05 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		889727FF18D91F730055A9FC /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		8897280118D91F840055A9FC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		88E8BE1818DFB62600F91BF3 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = share.png; path = "../../../../Desktop/glyphish-icons-3/PNG icons/share.png"; sourceTree = "<group>"; };
+		88E8BE1A18DFB63700F91BF3 /* job.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = job.png; sourceTree = "<group>"; };
+		88E8BE1C18DFB66000F91BF3 /* leather-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leather-background.png"; sourceTree = "<group>"; };
+		88E8BE1E18DFB6B100F91BF3 /* bgView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgView.png; sourceTree = "<group>"; };
+		88E8BE2018DFB78300F91BF3 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		88E8BE2218DFB7FD00F91BF3 /* FaceBookShareButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FaceBookShareButton.png; sourceTree = "<group>"; };
+		88E8BE2318DFB7FD00F91BF3 /* TwitterShareButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwitterShareButton.png; sourceTree = "<group>"; };
+		88E8BE2618DFB8BA00F91BF3 /* TheTabBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TheTabBar.png; sourceTree = "<group>"; };
+		88E8BE2818DFB8DA00F91BF3 /* GreenNavBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenNavBar.png; sourceTree = "<group>"; };
+		88E8BE2A18DFBFAF00F91BF3 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +101,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8897280218D91F840055A9FC /* MessageUI.framework in Frameworks */,
+				8897280018D91F730055A9FC /* Social.framework in Frameworks */,
 				8850BB0418CE8AAD00562E05 /* CoreGraphics.framework in Frameworks */,
 				8850BB0618CE8AAD00562E05 /* UIKit.framework in Frameworks */,
 				8850BB0218CE8AAD00562E05 /* Foundation.framework in Frameworks */,
@@ -101,6 +144,8 @@
 		8850BB0018CE8AAD00562E05 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8897280118D91F840055A9FC /* MessageUI.framework */,
+				889727FF18D91F730055A9FC /* Social.framework */,
 				8850BB0118CE8AAD00562E05 /* Foundation.framework */,
 				8850BB0318CE8AAD00562E05 /* CoreGraphics.framework */,
 				8850BB0518CE8AAD00562E05 /* UIKit.framework */,
@@ -112,11 +157,32 @@
 		8850BB0718CE8AAD00562E05 /* JobSearch */ = {
 			isa = PBXGroup;
 			children = (
+				88E8BE2818DFB8DA00F91BF3 /* GreenNavBar.png */,
+				88E8BE2A18DFBFAF00F91BF3 /* Home.png */,
+				88E8BE1C18DFB66000F91BF3 /* leather-background.png */,
+				88E8BE2618DFB8BA00F91BF3 /* TheTabBar.png */,
+				88E8BE1E18DFB6B100F91BF3 /* bgView.png */,
+				88E8BE1818DFB62600F91BF3 /* share.png */,
+				88E8BE1A18DFB63700F91BF3 /* job.png */,
+				88E8BE2018DFB78300F91BF3 /* button.png */,
+				88E8BE2218DFB7FD00F91BF3 /* FaceBookShareButton.png */,
+				88E8BE2318DFB7FD00F91BF3 /* TwitterShareButton.png */,
 				8850BB1018CE8AAD00562E05 /* AppDelegate.h */,
 				8850BB1118CE8AAD00562E05 /* AppDelegate.m */,
 				8850BB1318CE8AAD00562E05 /* Main.storyboard */,
-				8850BB1618CE8AAD00562E05 /* ViewController.h */,
-				8850BB1718CE8AAD00562E05 /* ViewController.m */,
+				883BCBD718DBB7D200D79E49 /* ApplyWebViewController.h */,
+				883BCBD818DBB7D200D79E49 /* ApplyWebViewController.m */,
+				8850BB3618CE8DEF00562E05 /* HomeJobSearchViewController.h */,
+				8850BB3718CE8DEF00562E05 /* HomeJobSearchViewController.m */,
+				8850BB3918CE8E0400562E05 /* FoundJobsTableViewController.h */,
+				8850BB3A18CE8E0400562E05 /* FoundJobsTableViewController.m */,
+				8807A74718D7C32E00335DCD /* DetailsViewController.h */,
+				8807A74818D7C32E00335DCD /* DetailsViewController.m */,
+				8850BB3F18CE8E1F00562E05 /* ShareViewController.h */,
+				8850BB4018CE8E1F00562E05 /* ShareViewController.m */,
+				880B59C018CFE1EB007286B8 /* JobModel.xcdatamodeld */,
+				880B59C318CFE2C7007286B8 /* Job.h */,
+				880B59C418CFE2C7007286B8 /* Job.m */,
 				8850BB1918CE8AAD00562E05 /* Images.xcassets */,
 				8850BB0818CE8AAD00562E05 /* Supporting Files */,
 			);
@@ -196,9 +262,12 @@
 		8850BAF618CE8AAD00562E05 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = CongenialApps;
 				TargetAttributes = {
+					8850BAFD18CE8AAD00562E05 = {
+						DevelopmentTeam = 7K2U3828M5;
+					};
 					8850BB1E18CE8AAE00562E05 = {
 						TestTargetID = 8850BAFD18CE8AAD00562E05;
 					};
@@ -229,8 +298,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				8850BB1A18CE8AAD00562E05 /* Images.xcassets in Resources */,
+				88E8BE2118DFB78300F91BF3 /* button.png in Resources */,
+				88E8BE2918DFB8DA00F91BF3 /* GreenNavBar.png in Resources */,
+				88E8BE2418DFB7FD00F91BF3 /* FaceBookShareButton.png in Resources */,
+				88E8BE2B18DFBFAF00F91BF3 /* Home.png in Resources */,
 				8850BB0C18CE8AAD00562E05 /* InfoPlist.strings in Resources */,
+				88E8BE1B18DFB63700F91BF3 /* job.png in Resources */,
+				88E8BE2518DFB7FD00F91BF3 /* TwitterShareButton.png in Resources */,
 				8850BB1518CE8AAD00562E05 /* Main.storyboard in Resources */,
+				88E8BE1918DFB62600F91BF3 /* share.png in Resources */,
+				88E8BE1D18DFB66000F91BF3 /* leather-background.png in Resources */,
+				88E8BE2718DFB8BA00F91BF3 /* TheTabBar.png in Resources */,
+				88E8BE1F18DFB6B100F91BF3 /* bgView.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +328,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8850BB1818CE8AAD00562E05 /* ViewController.m in Sources */,
+				880B59C218CFE1EB007286B8 /* JobModel.xcdatamodeld in Sources */,
 				8850BB1218CE8AAD00562E05 /* AppDelegate.m in Sources */,
+				880B59C518CFE2C7007286B8 /* Job.m in Sources */,
+				883BCBD918DBB7D200D79E49 /* ApplyWebViewController.m in Sources */,
 				8850BB0E18CE8AAD00562E05 /* main.m in Sources */,
+				8850BB3B18CE8E0400562E05 /* FoundJobsTableViewController.m in Sources */,
+				8807A74918D7C32E00335DCD /* DetailsViewController.m in Sources */,
+				8850BB4118CE8E1F00562E05 /* ShareViewController.m in Sources */,
+				8850BB3818CE8DEF00562E05 /* HomeJobSearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +390,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -344,7 +428,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -378,10 +461,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JobSearch/JobSearch-Prefix.pch";
 				INFOPLIST_FILE = "JobSearch/JobSearch-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,10 +477,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JobSearch/JobSearch-Prefix.pch";
 				INFOPLIST_FILE = "JobSearch/JobSearch-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -402,7 +491,6 @@
 		8850BB3418CE8AAE00562E05 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JobSearch.app/JobSearch";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -425,7 +513,6 @@
 		8850BB3518CE8AAE00562E05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JobSearch.app/JobSearch";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -460,6 +547,7 @@
 				8850BB3218CE8AAE00562E05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8850BB3318CE8AAE00562E05 /* Build configuration list for PBXNativeTarget "JobSearchTests" */ = {
 			isa = XCConfigurationList;
@@ -468,8 +556,22 @@
 				8850BB3518CE8AAE00562E05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		880B59C018CFE1EB007286B8 /* JobModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				880B59C118CFE1EB007286B8 /* JobModel.xcdatamodel */,
+			);
+			currentVersion = 880B59C118CFE1EB007286B8 /* JobModel.xcdatamodel */;
+			path = JobModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8850BAF618CE8AAD00562E05 /* Project object */;
 }
